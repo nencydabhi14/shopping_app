@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".chooseapp_design">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="#3A3939">
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="All in One Shopping"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/menu_img"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:src="@drawable/menu" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/amazon_img"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ripaleffect"
+                        android:src="@drawable/amazon" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Amazon"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/flip_cart"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/flipcart" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Flipcart"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/hnm_img"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="20dp"
+                        android:src="@drawable/handm" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="h&amp;m"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/meesho_img"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ripaleffect"
+                        android:paddingBottom="20dp"
+                        android:src="@drawable/meesho1" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Meesho"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/purple_img"
+                        android:layout_width="120dp"
+                        android:layout_height="178dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/purple" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Purple"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/mytra_img"
+                        android:layout_width="120dp"
+                        android:layout_height="177dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/myntra" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Myntra"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/bigbasket_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="183dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/bigbasket1" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Big-Basket"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/nykaa_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="181dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/nykaa" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Nykaa"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/max_img"
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/max" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Max"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/snapdeal_img"
+                        android:layout_width="120dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/img" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Snapdeal"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/shopify_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/shopify" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Shopify"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/shopsy_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="181dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/shopsy" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Shopsy"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/bigbazar_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/bigbazaar" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Big-Bazar"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/dealshare_img"
+                        android:layout_width="120dp"
+                        android:layout_height="176dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="13dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="25dp"
+                        android:src="@drawable/deal" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="DealShare"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="30dp"
+                    app:cardElevation="10dp">
+
+                    <ImageView
+                        android:id="@+id/myglam_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@drawable/ripaleffect"
+                        android:padding="10dp"
+                        android:src="@drawable/myglam" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_marginTop="110dp"
+                        android:background="#A5A4A4" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+                        android:gravity="center"
+                        android:text="Myglamm"
+                        android:textColor="@color/black"
+                        android:textSize="17dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
